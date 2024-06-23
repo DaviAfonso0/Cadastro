@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black url('/imagens/ny.jpg') left center no-repeat fixed; 
+    background-size: cover;
+}
+main{
+   height: 100vh;
+   position: relative;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #022842d3;
+    width: 500px;
+    height: 400px;
+    padding: 20px; 
+    text-align: center;  
+    border-radius: 20px;
+}
+#titulo-principal{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 2.5em;
+    color: white;
+}
+input{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #022842d3;
+    border-radius: 30px;
+}
+:placeholder-shown{
+    font-size: 1.2em;
+    text-align: center;
+}
+#submit{
+    width: 100px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    cursor: pointer;
+}
