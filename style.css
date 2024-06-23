@@ -6,7 +6,7 @@
     padding: 0;
 }
 :root{
-
+    --cor-fundo:#022842d3;; 
 }
 
 body{
@@ -25,7 +25,7 @@ form{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    background-color: #022842d3;
+    background-color: var(--cor-fundo);
     width: 500px;
     height: 400px;
     padding: 20px; 
@@ -42,7 +42,7 @@ input{
     width: 300px;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #022842d3;
+    border: 1px solid var(--cor-fundo);
     border-radius: 30px;
 }
 :placeholder-shown{
